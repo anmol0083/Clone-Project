@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: linear-gradient(#d6e1ff, #e0e8ff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sum__cont {
+  width: 100%;
+  max-width: 740px;
+  margin-inline: auto;
+}
+.sum__image {
+  width: 100%;
+}
+.sum__content {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  padding-block: 4rem;
+}
+.sum__title1 {
+  font-family: "Manrope", "sans-serif";
+  font-size: 48px;
+  line-height: 58px;
+  font-weight: 800;
+  color: #16264c;
+}
+.sum__desc {
+  width: 100%;
+  max-width: 484px;
+  text-align: center;
+  font-family: "Manrope", "sans-serif";
+  font-size: 24px;
+  font-weight: 400;
+  color: #696f86;
+}
+.sum__mdlsec {
+  display: flex;
+  align-items: center;
+  gap: 90px;
+  width: 100%;
+  max-width: 519px;
+  justify-content: center;
+}
+.sum__First {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.sum__icon {
+  padding: 24px;
+  border-radius: 50%;
+  background-color: #dfe5fb;
+}
+.sum__title2 {
+  font-family: "Manrope", "sans-serif";
+  font-size: 20px;
+  font-weight: 600;
+  color: #16264c;
+}
+.sum__price {
+  font-family: "Manrope", "sans-serif";
+  font-size: 16px;
+  font-weight: 400;
+  color: #696f86;
+}
+.sum__second {
+  font-family: "Manrope", "sans-serif";
+  font-size: 16px;
+  font-weight: 600;
+  color: #382ae1;
+  border-bottom: 1px solid #382ae1;
+}
+.sum__paybtn {
+  font-family: "Manrope", "sans-serif";
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  width: 100%;
+  max-width: 519px;
+  padding-block: 1.3rem;
+  border-radius: 15px;
+  background-color: #382ae1;
+  border: 1px solid transparent;
+}
+.sum__cnclsec {
+  font-family: "Manrope", "sans-serif";
+  font-size: 16px;
+  font-weight: 600;
+  color: #696f86;
+}
+
+@media (max-width: 768px) {
+  .sum__img {
+    width: 100%;
+    height: 100%;
+  }
+  .sum__title1 {
+    font-size: 33px;
+  }
+  .sum__paybtn {
+    width: 80%;
+  }
+}
+@media (max-width: 425px) {
+  .sum__paybtn {
+    width: 80%;
+    padding: 14px;
+  }
+}
+@media (max-width: 320px) {
+  .sum__desc {
+    padding-inline: 10px;
+  }
+  .sum__mdlsec {
+    padding-inline: 10px;
+  }
+  .sum__title2 {
+    font-size: 14px;
+  }
+  .sum__icon {
+    padding: 15px;
+  }
+  .sum__paybtn {
+    padding: 12px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
